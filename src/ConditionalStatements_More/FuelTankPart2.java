@@ -13,7 +13,7 @@ public class FuelTankPart2 {
         String fuelType = sc.nextLine();
         double fuelQuantity = Integer.parseInt(sc.nextLine());
         String discountCard = sc.nextLine();
-        double totalPrice = 0;
+        double totalPrice;
 
         if(fuelType.equals("Gas")){
             if(discountCard.equals("Yes")){
@@ -25,7 +25,7 @@ public class FuelTankPart2 {
             if(fuelQuantity>25){
                 totalPrice-=totalPrice*0.10;
             }
-            else if (fuelQuantity>=20&&fuelQuantity<=25){
+            else if (fuelQuantity>=20&&fuelQuantity<25){
                 totalPrice-=totalPrice*0.08;
             }
             System.out.printf("%.2f lv.",totalPrice);
@@ -41,7 +41,7 @@ public class FuelTankPart2 {
             if(fuelQuantity>25){
                 totalPrice-=totalPrice*0.10;
             }
-            else if (fuelQuantity>=20&&fuelQuantity<=25){
+            else if (fuelQuantity>=20&&fuelQuantity<25){
                 totalPrice-=totalPrice*0.08;
             }
             System.out.printf("%.2f lv.",totalPrice);
@@ -57,7 +57,7 @@ public class FuelTankPart2 {
             if(fuelQuantity>25){
                 totalPrice-=totalPrice*0.10;
             }
-            else if (fuelQuantity>=20&&fuelQuantity<=25){
+            else if (fuelQuantity>=20&&fuelQuantity<25){
                 totalPrice-=totalPrice*0.08;
             }
             System.out.printf("%.2f lv.",totalPrice);
