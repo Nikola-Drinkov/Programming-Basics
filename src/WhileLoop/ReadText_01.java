@@ -10,6 +10,7 @@ public class ReadText_01 {
 
             System.out.println(input);
             input= sc.nextLine();
+
         }
     }
 }
