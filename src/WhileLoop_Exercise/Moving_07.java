@@ -30,5 +30,6 @@ public class Moving_07 {
             int excess = spaceAvailable-spaceRequired;
             System.out.printf("%d Cubic meters left.",excess);
         }
+
     }
 }
