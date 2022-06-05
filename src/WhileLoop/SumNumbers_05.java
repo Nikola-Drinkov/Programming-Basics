@@ -1,3 +1,5 @@
+package WhileLoop;
+
 import java.util.Scanner;
 
 public class SumNumbers_05 {
