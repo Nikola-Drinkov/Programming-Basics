@@ -43,6 +43,7 @@ public class Vacation_03 {
         else{
             System.out.println("You can't save the money.");
             System.out.printf("%d",days);
+
         }
     }
 }
