@@ -18,5 +18,6 @@ public class NumberPyramid_01 {
             }
             System.out.println();
         }
+
     }
 }
