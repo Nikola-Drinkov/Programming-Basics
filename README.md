@@ -1,2 +1,2 @@
 # Programming-Basics-SoftUni
-This repository contains completed tasks from the SoftUni Programming Basics module.
+This repository contains solved problems from the SoftUni Programming Basics module.
